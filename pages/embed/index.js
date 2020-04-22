@@ -93,6 +93,7 @@ class Embed extends React.Component {
   render() {
     return (
       <Page theme={this.state.theme}>
+        <script src="https://unpkg.com/iframe-resizer@4.2.10/js/iframeResizer.contentWindow.min.js" crossorigin="anonymous"></script>
         <div hidden={!this.state.mounted}>
           <Carbon
             key={this.state.mounted}
